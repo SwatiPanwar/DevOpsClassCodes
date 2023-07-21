@@ -96,7 +96,7 @@
             <artifactId>tools</artifactId>
             <version>1.6</version>
             <scope>system</scope>
-            <systemPath>/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk\Contents/Home\lib\tools.jar</systemPath>
+            <systemPath>C:\Program Files\Java\jdk1.6.0_29\lib\tools.jar</systemPath>
        </dependency>	
 				<!-- LOGGING -->
 		<dependency>
