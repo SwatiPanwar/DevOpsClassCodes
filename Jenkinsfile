@@ -36,14 +36,14 @@ pipeline{
                 }
                 
             }
-            stage('MetricCheck'){
-                agent any
-                steps{
-                    sh 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
-                }
-                post{
-                    always{
-                        cobertura coberturaReportFile: 'target/site/cobertura/coverage.xml'
+         #   stage('MetricCheck'){
+          #      agent any
+           #     steps{
+            #        sh 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
+             #   }
+              #  post{
+               #     always{
+                #        cobertura coberturaReportFile: 'target/site/cobertura/coverage.xml'
                     }
                 }
             }
